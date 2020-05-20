@@ -1,0 +1,14 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>Band_1</Description>
+    <Metadata>
+      <MDI key="BandName">Band_1</MDI>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.75676816701889</MDI>
+      <MDI key="STATISTICS_MEAN">0.59643025218763</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.18533158302307</MDI>
+      <MDI key="STATISTICS_STDDEV">0.12462852631382</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

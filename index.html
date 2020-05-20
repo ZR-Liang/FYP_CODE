@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Perfect field</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+</head>
+<style>
+    .wholePage{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .topRight{
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        /* background-color: aqua; */
+    }
+
+    .popup-content{
+        height: 400px;
+        width: 250px;
+        background: #fff;
+        top: 0;
+        left: 65%;
+        margin-top: 20%;
+        padding: 5px;
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+      
+    }
+</style>
+
+
+
+<body>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>  
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <div class="wholePage">
+        <div id="container" ></div>
+        <svg id="legend" class="topRight" width="380" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="Gradient" x1="0" x2="0" y1="0" y2="1">
+                  <stop id="band5" offset="0%"  />
+                  <stop id="band4" offset="25%" />
+                  <stop id="band3" offset="50%" />
+                  <stop id="band2" offset="75%" />
+                  <stop id="band1" offset="100%" />
+                </linearGradient>
+            </defs>
+            <rect x="20" y="10"  width="15" height="100" fill="url(#Gradient)"/>
+            <text id="Value5" x="40" y="20" fill="black" font-family="sans-serif" font-size="10pt"></text>
+            <text id="Value4" x="40" y="40" fill="black" font-family="sans-serif" font-size="10pt"></text>
+            <text id="Value3" x="40" y="60" fill="black" font-family="sans-serif" font-size="10pt"></text>
+            <text id="Value2" x="40" y="80" fill="black" font-family="sans-serif" font-size="10pt"></text>
+            <text id="Value1" x="40" y="105" fill="black" font-family="sans-serif" font-size="10pt"></text>
+        </svg>
+    </div>
+
+    <div id="fieldID" hidden> 1 </div>
+    
+    <script src="lib/three/build/three.js"  ></script>
+    <script src="lib/three/examples/js/controls/OrbitControls.js" ></script>  
+    <script src="lib/geotiff/dist/geotiff.bundle.js"></script>
+    <script src="lib/dat.gui/build/dat.gui.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

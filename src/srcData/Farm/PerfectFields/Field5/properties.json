@@ -1,0 +1,18 @@
+{
+    "properties":{
+        "OBJECTID":1,
+        "RTFarmName":"Dove House Ley field",
+        "Date_Tested":"28/10/2014",
+        "Soil_PH":5,
+        "Soil_PmgL":"23",
+        "Soil_PIndex":2,
+        "Soil_KmgL":"148",
+        "Soil_KIndex":2,
+        "Soil_MGmgL":"54",
+        "Soil_MGIndex":2,
+        "Soil_Silt":"36",
+        "Soil_Clay":"42",
+        "Soil_Sand":"21",
+        "Soil_Texture":"9"
+     }
+}

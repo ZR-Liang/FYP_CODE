@@ -1,0 +1,28 @@
+{
+    "Field": {
+        "1": "Hodgins Field",
+        "2": "Mills Field",
+        "3": "40 Acre Newland Field",
+        "4": "Cattle shot/Marys Meadow field",
+        "5": "Dove House Ley field"
+    },
+    "Textures": [
+        "TCI",
+        "Agriculture_with_DRA",
+        "Geology_with_DRA",
+        "MSAVI2",
+        "NDMI",
+        "NDVI"
+    ],
+    "Times":[
+        "2018-05-07",
+        "2020-03-27"
+    ],
+    "FieldID": {
+        "1": "A05FBA77-1062-4E56-814B-4E421A14A481",
+        "2": "F884B2D2-420C-4898-929F-CD16B9F40285",
+        "3": "B4029FE3-073B-4628-AF06-116B595950F8",
+        "4": "E7AC3543-FE7B-4CDB-9A5B-16C081304368",
+        "5": "923E9180-C41E-47C7-A180-E57F2C87EB60"
+    }
+}
